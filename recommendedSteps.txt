@@ -1,0 +1,8 @@
+To begin on extending the add method for String Calculator, we must
+    1.) Start a public git repo
+    2.) Add, commit, and push our current implementation to GitHub
+    3.) Start to test case for "calling add with a negative number throws exception"
+    4.) If passes, add and commit.
+    5.) If not, add implementation to make it pass while not breaking the other cases.
+    6.) Repeat 3-5 for "Numbers bigger than 1000 should be ignored" test case
+    7.) Do a TravisCI build to confirm that it works
