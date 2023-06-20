@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="added implementation to pass first test case">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="added implementation to pass second test case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687300239929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added second test case, not passing. Deleted @BeforeEach and @AfterEach due to wrong implementation">
+      <created>1687300815609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687300815609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed a &gt; to a &lt; sign on line11">
+      <created>1687300845417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687300845417</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added implementation to pass second test case">
+      <created>1687301068532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687301068532</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +164,9 @@
     <MESSAGE value="added BeforeEach and AfterEach method" />
     <MESSAGE value="committed out BeforeEach/AfterEach" />
     <MESSAGE value="added implementation to pass first test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="added implementation to pass first test case" />
+    <MESSAGE value="added second test case, not passing. Deleted @BeforeEach and @AfterEach due to wrong implementation" />
+    <MESSAGE value="changed a &gt; to a &lt; sign on line11" />
+    <MESSAGE value="added implementation to pass second test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation to pass second test case" />
   </component>
 </project>
