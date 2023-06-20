@@ -1,20 +1,8 @@
 import org.junit.Test;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StringCalculatorTest {
     String sc;
-
-//    @BeforeEach
-//    public void setUp() {
-//        String sc = "";
-//    }
-//
-//    @AfterEach
-//    public void tearDown() {
-//        String sc = "";
-//    }
 
     @Test
     public void stringCalculator_addingWithNegativeNumber_throwException(){
@@ -22,6 +10,18 @@ public class StringCalculatorTest {
 
         assertThrows(IllegalArgumentException.class, ()->
                 StringCalculator.add(sc));
+        sc = "";
+    }
+
+    @Test
+    public void stringCalculator_addingNumbersGreaterThan1000_ignoreThem(){
+        sc = "1,1000";
+
+        int actual = StringCalculator.add(sc);
+        int expected = 1;
+
+        assertEquals(actual, expected);
+
     }
 
 }

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="added BeforeEach and AfterEach method">
+    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="added implementation to pass first test case">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
     </list>
@@ -44,7 +45,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.stringCalculator_addingNumbersGreaterThan1000_ignoreThem">
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question7Final" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.stringCalculator_addingNumbersGreaterThan1000_ignoreThem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question7Final" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="stringCalculator_addingNumbersGreaterThan1000_ignoreThem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCalculatorTest.stringCalculator_addingWithNegativeNumber_throwException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Question7Final" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,7 +77,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.stringCalculator_addingNumbersGreaterThan1000_ignoreThem" />
         <item itemvalue="JUnit.StringCalculatorTest.stringCalculator_addingWithNegativeNumber_throwException" />
+        <item itemvalue="JUnit.StringCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687299773897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="committed out BeforeEach/AfterEach">
+      <created>1687300198631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687300198631</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added implementation to pass first test case">
+      <created>1687300239929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687300239929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +145,8 @@
     <MESSAGE value="added first test case, not passing" />
     <MESSAGE value="changes to StringCalculator, added Sara's starting code" />
     <MESSAGE value="added BeforeEach and AfterEach method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added BeforeEach and AfterEach method" />
+    <MESSAGE value="committed out BeforeEach/AfterEach" />
+    <MESSAGE value="added implementation to pass first test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation to pass first test case" />
   </component>
 </project>
