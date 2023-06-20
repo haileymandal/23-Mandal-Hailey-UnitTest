@@ -8,7 +8,7 @@ public class StringCalculator {
         } else {
             for (String number : numbersArray) {
                 if (!number.trim().isEmpty()) {
-                    if(Integer.parseInt(number.trim()) > 0){
+                    if(Integer.parseInt(number.trim()) < 0){
                         throw new IllegalArgumentException("Negatives not allowed");
                     }
                     returnValue+=Integer.parseInt(number.trim()); // If it is not a number, parseInt will throw an exception
