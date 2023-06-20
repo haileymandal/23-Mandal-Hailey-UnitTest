@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="added first test case, not passing">
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
+    <list default="true" id="78b2d0ff-3d12-4484-be2b-52ab11b081ff" name="Changes" comment="changes to StringCalculator, added Sara's starting code">
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687299277053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes to StringCalculator, added Sara's starting code">
+      <created>1687299470294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687299470294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added first test case, not passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first test case, not passing" />
+    <MESSAGE value="changes to StringCalculator, added Sara's starting code" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to StringCalculator, added Sara's starting code" />
   </component>
 </project>
