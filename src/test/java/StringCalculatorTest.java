@@ -17,10 +17,10 @@ public class StringCalculatorTest {
     public void stringCalculator_addingNumbersGreaterThan1000_ignoreThem(){
         sc = "1,1000";
 
-        int actual = StringCalculator.add(sc);
         int expected = 1;
+        int actual = StringCalculator.add(sc);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
 
     }
 
